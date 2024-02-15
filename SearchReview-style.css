@@ -209,3 +209,14 @@ footer > h1 {
     transform: scale(1.05);
     background-color: #ff5300;
 }
+h2{color: #ff5300;}
+.button{
+    position: absolute; /* Absolute positioning */
+    top: 150px; /* Adjust top position as needed */
+    left: 1200px; /* Adjust left position as needed */
+    z-index: 1; /* Ensure button stays above other elements */
+    background-color: #ffa800; /* Orange color */
+    border-radius: 5px; /* Rounded edges */
+    margin-top: 10px; /* Gap above */
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
