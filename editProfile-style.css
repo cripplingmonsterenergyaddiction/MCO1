@@ -1,5 +1,7 @@
 body {
     font-family: arial;
+    display:flex;
+    gap:10px;
 }
 .logo-container img, .right-container img {
     height: 50px;
@@ -199,12 +201,14 @@ flex-direction: row;
 }
 
 .form-control:hover {
-    border-color: #ff5300; /* Border color when hovered */
+    border-color: #006FB9; /* Border color when hovered */
 }
 .text-primary{color: #ff5300;}
+.form-group,h3{color: #006FB9;}
+
 .avatar {
-        max-width: 10%; /* Adjust as needed */
-        max-height: 10%; /* Adjust as needed */
+        max-width: 25%; /* Adjust as needed */
+        max-height: 25%; /* Adjust as needed */
     }
     .avatar-section{
         flex:1;
@@ -221,8 +225,21 @@ flex-direction: row;
     background-color: #ffa800;
     }
     .form-info:hover {
-    border-color: #ff5300; /* Border color when hovered */
+    border-color: #006FB9; /* Border color when hovered */
 }
 .text-primary{
     padding-left: 20px;
 }
+.button {
+    background-color: #ffa800; /* Orange color */
+    border-radius: 5px; /* Rounded edges */
+    margin-top: 10px; /* Gap above */
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  #Home {
+    position: absolute; /* Absolute positioning */
+    top: 150px; /* Adjust top position as needed */
+    left: 1200px; /* Adjust left position as needed */
+    z-index: 1; /* Ensure button stays above other elements */
+  }
+  

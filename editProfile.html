@@ -12,7 +12,7 @@
             <div class="right-container">
                 <button onclick="showSignup()" id="signup" class="marginleft-20 bold">Sign up</button>
                 <button onclick="showLogIn()" id="log-in" class="bold">Log in</button>
-                <img id="avatar-logo" src="diamond.png" alt="None">
+                <img id="avatar-logo" src="blank-avatar.jpg" alt="None">
             </div>
         </header>
 
@@ -24,7 +24,7 @@
               <div class="col3">
                 <div class="text-center">
                     <div class="avatar-section">
-                  <img src="diamond.png" class="avatar img-circle img-thumbnail" alt="avatar">
+                  <img src="blank-avatar.jpg" class="avatar img-circle img-thumbnail" alt="avatar">
                   <h6>Upload a different photo</h6>
                   
                   <input type="file" class="form-control">
@@ -36,7 +36,13 @@
               <div class="personal-info">
                 
                 <h3>Personal info</h3>
-                
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label class="control-label">Username:</label>
+                    <div class="col8">
+                      <input class="form-info" type="text" value="Enter value here">
+                    </div>
+                  </div>
                 <form class="form-horizontal" role="form">
                   <div class="form-group">
                     <label class="control-label">First name:</label>
@@ -57,7 +63,16 @@
                       <input class="form-info" type="text" value="Enter Email Here">
                     </div>
                   </div>
-                  
+                  <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                      <label class="control-label">Profile Description:</label>
+                      <div class="col8">
+                        <input class="form-info" type="text" value="Enter value here">
+                      </div>
+                    </div>
+                    
+                    <button class="button" id="Save">Save Changes</button>
+                    <button class="button" id="Home">Home</button>
                       
                       </div>
                     </div>
